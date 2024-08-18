@@ -11,7 +11,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Platino">
-              <Image src="/images/isotipo-platino.jpg" width={32} height={32} alt="Platino Logo" />
+              <Image src="/images/large-isotipo-platino.jpg" width={350} height={32} alt="Platino Logo" />
             </Link>
           </div>
 
