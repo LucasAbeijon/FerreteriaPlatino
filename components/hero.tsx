@@ -25,16 +25,24 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Ferretería Platino. Todo lo que Necesitas, en un Solo Lugar</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Herramientas eléctricas, materiales, pintura y más.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+              Herramientas eléctricas, materiales, pintura y más.
+            </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Whatsapp</a>
+                <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="/">
+                  WhatsApp
+                </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-blue-700 hover:bg-pink-800 w-full sm:w-auto sm:ml-4" href="#0">Facebook</a>
+                <a className="btn text-white bg-blue-700 hover:bg-blue-800 w-full sm:w-auto sm:ml-4" href="https://www.facebook.com/ferreteria.platino.3" target="_blank" rel="noopener noreferrer">
+                  Facebook
+                </a>
               </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-pink-700 hover:bg-pink-800 w-full sm:w-auto sm:ml-4" href="#0">Instagram</a>
+              <div data-aos="fade-up" data-aos-delay="800">
+                <a className="btn text-white bg-pink-700 hover:bg-pink-800 w-full sm:w-auto sm:ml-4" href="https://www.instagram.com/ferreteriaplatinouy/" target="_blank" rel="noopener noreferrer">
+                  Instagram
+                </a>
               </div>
             </div>
           </div>
