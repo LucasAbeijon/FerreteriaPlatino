@@ -1,0 +1,36 @@
+# name: Build Project
+
+# # El evento que activa la acción
+# on:
+#   push:
+#     branches:
+#       - '**'
+#   pull_request:
+#     branches:
+#       - '**'
+
+# # Definir los jobs
+# jobs:
+#   build:
+#     # En qué sistema operativo correrá
+#     runs-on: ubuntu-latest
+
+#     # Los pasos a seguir en este job
+#     steps:
+#       # 1. Checkout: Descargar el código del repositorio
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+
+#       # 2. Set up Node.js: Instalar la versión correcta de Node.js
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: '20.15.1'  # Ajusta a la versión de Node.js que estés usando
+
+#       # 3. Install dependencies: Instalar las dependencias del proyecto
+#       - name: Install dependencies
+#         run: npm install
+
+#       # 4. Run build: Ejecutar el comando de build
+#       - name: Run build
+#         run: npm run build
