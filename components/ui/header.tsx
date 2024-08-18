@@ -17,8 +17,9 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
+          {/* Desktop sign in links */}
+          {/*
           <nav className="hidden md:flex md:grow">
-            {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
@@ -35,6 +36,7 @@ export default function Header() {
               </li>
             </ul>
           </nav>
+          */}
 
           <MobileMenu />
 

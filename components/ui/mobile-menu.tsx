@@ -53,6 +53,7 @@ export default function MobileMenu() {
       </button>
 
       {/*Mobile navigation */}
+      {/*
       <nav
         id="mobile-nav"
         ref={mobileNav}
@@ -75,6 +76,7 @@ export default function MobileMenu() {
           </li>
         </ul>
       </nav>
+      */}
     </div>
   )
 }
