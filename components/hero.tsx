@@ -31,7 +31,10 @@ export default function Hero() {
                 <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Whatsapp</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-blue-700 hover:bg-bluew-800 w-full sm:w-auto sm:ml-4" href="#0">Facebook</a>
+                <a className="btn text-white bg-blue-700 hover:bg-pink-800 w-full sm:w-auto sm:ml-4" href="#0">Facebook</a>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a className="btn text-white bg-pink-700 hover:bg-pink-800 w-full sm:w-auto sm:ml-4" href="#0">Instagram</a>
               </div>
             </div>
           </div>
